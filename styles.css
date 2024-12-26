@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+form{
+    margin: 20px auto;
+    max-width: 400px;
+}
+label, imput, button{
+    display: block;
+    margin: 10px 0;
+}
+button{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkblue;
+}
+#questionsContainer, #reviewedQuestionsContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin: 20px;
+}
+.question-card{
+    border: 2px;
+    padding: 10px;
+}
+.question-card.reviewed{
+    border-color: violet;
+}
+.question-card button{
+    margin: 5px 0;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="questions.html">Questions</a>
+    </nav>
+    <h1>Quiz Management</h1>
+    <form id="quizForm">
+        <label>Question:</label>
+        <input type="text" id="question" required />
+        <label>Option A:</label>
+        <input type="text" id="optionA" required />
+        <label>Option B:</label>
+        <input type="text" id="optionB" required />
+        <label>Option C:</label>
+        <input type="text" id="optionC" required />
+        <label>Option D:</label>
+        <input type="text" id="optionD" required />
+        <label>Correct Option:</label>
+        <input type="text" id="correctOption" required />
+        <button type="submit">Add Questions</button>
+    </form>
+<h2>Questions</h2>
+<div id="questionsContainer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
